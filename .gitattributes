@@ -61,3 +61,4 @@
 /verilog/dv/mprj_stimulus/Makefile filter=lfs diff=lfs merge=lfs -text
 /verilog/dv/wb_port/Makefile filter=lfs diff=lfs merge=lfs -text
 *.caravel_user_project filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
