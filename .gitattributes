@@ -1,10 +1,11 @@
+*.mag filter=lfs diff=lfs merge=lfs -text
+*.v filter=lfs diff=lfs merge=lfs -text
+*.gds filter=lfs diff=lfs merge=lfs -text
 /LICENSE filter=lfs diff=lfs merge=lfs -text
 /Makefile filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
-*.gds filter=lfs diff=lfs merge=lfs -text
 *.lef filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
-*.mag filter=lfs diff=lfs merge=lfs -text
 *.sdc filter=lfs diff=lfs merge=lfs -text
 *.sdf filter=lfs diff=lfs merge=lfs -text
 /signoff/user_proj_example/OPENLANE_VERSION filter=lfs diff=lfs merge=lfs -text
@@ -55,7 +56,6 @@
 /verilog/dv/Makefile filter=lfs diff=lfs merge=lfs -text
 /verilog/dv/io_ports/Makefile filter=lfs diff=lfs merge=lfs -text
 *.c filter=lfs diff=lfs merge=lfs -text
-*.v filter=lfs diff=lfs merge=lfs -text
 /verilog/dv/la_test1/Makefile filter=lfs diff=lfs merge=lfs -text
 /verilog/dv/la_test2/Makefile filter=lfs diff=lfs merge=lfs -text
 /verilog/dv/mprj_stimulus/Makefile filter=lfs diff=lfs merge=lfs -text
